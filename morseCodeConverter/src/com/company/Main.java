@@ -93,16 +93,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        filling hashtable
+        //filling hashtable
         fillHashtable();
 
-//        letters to mors code
+        //letters to mors code
         String[] arr = {"A", "N", "I", "L", "C", "A", "N"};
         letterToMors(arr);
 
         System.out.println();
 
-//        mors code to letters
+        //mors code to letters
         convertMorsCode(convertToArr(".-/-./../.-../-.-./.-/-./","/"));
 
 
